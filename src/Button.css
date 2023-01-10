@@ -1,0 +1,36 @@
+button {
+  border-radius: 0;
+  background: #fff;
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  border: 2px solid black;
+  box-shadow: 3px 5px #999;
+}
+
+button:active {
+  transform: translateY(5px);
+  box-shadow: 3px 3px #999;
+}
+
+button.on {
+  border-color: #000;
+  background-color: #fff;
+}
+
+button.off {
+  border-color: #fff;
+  background-color: #000;
+}
+
+.color-selector button {
+  padding: 0.5rem 2rem;
+}
+
+button.purple-on {
+  background-color: #881FDE;
+  color: #fff;
+}
+
+button.green-on {
+  background-color: #0ccc1e;
+}

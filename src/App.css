@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 8rem;
+  box-sizing: border-box;
+}
+
+.headline {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.subhead {
+  font-size: 1.5rem;
+}
+
+.color-selector {
+  flex-direction: row;
+  margin-top: 7rem;
+}
+
+.color-selector button {
+  margin: 0 1rem;
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
